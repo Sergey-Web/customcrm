@@ -11,6 +11,7 @@
         "symfony/config": "^4.2",
         "symfony/templating": "^4.2",
         "symfony/http-foundation": "^4.2",
+        "symfony/yaml": "^4.2",
         "symfony/http-kernel": "^4.2"
     },
     "require-dev": {
@@ -21,7 +22,7 @@
             "App\\": "src/"
         },
         "files": [
-            "src/helpers/helper.php"
+            "src/helpers/Helper.php"
         ]
     }
 }

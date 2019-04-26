@@ -1,0 +1,7 @@
+index_route:
+    path:      /
+    controller: App\Http\IndexController::indexAction
+
+page_route:
+    path:      /page/{alias}
+    controller: App\Http\PageController::showAction
